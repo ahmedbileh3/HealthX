@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_3"
+    tools:context=".HomePage">
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Health X"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/wR1"
+            android:padding="10dp"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/wIv"
+                android:src="@drawable/ic_weight"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+            <TextView
+                android:text="Log your weight"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/wIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fR2"
+            android:padding="10dp"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fIv"
+                android:src="@drawable/ic_diary"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+            <TextView
+                android:text="Log your meals here"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/fIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/aR3"
+            android:padding="10dp"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/aIv"
+                android:src="@drawable/ic_activites"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+            <TextView
+                android:text="Get moving: 2500 steps to go"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/aIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gR4"
+            android:padding="10dp"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/gIv"
+                android:src="@drawable/ic_goals"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+            <TextView
+                android:text="Goal 1 almost finished"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/gIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/pR5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/shape"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_profile">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/profile"
+                android:text="Head back to profile"
+                android:textColor="@color/black"
+                android:textSize="22sp">
+
+            </TextView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

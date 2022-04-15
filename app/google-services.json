@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1024648342222",
+    "project_id": "health-x-febb1",
+    "storage_bucket": "health-x-febb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024648342222:android:cbc9ad9d3c52aebef47e9f",
+        "android_client_info": {
+          "package_name": "com.example.healthx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024648342222-j883fi6v4unop5j23tr62vpam4ucq0vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzx0o6w_sG4yzlNbzISl5MWw7F-LhfFb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024648342222-j883fi6v4unop5j23tr62vpam4ucq0vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

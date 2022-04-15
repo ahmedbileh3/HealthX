@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Health X</string>
+    <string name="start">Start</string>
+    <string name="create_acc">Create Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign in</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="goals">GOALS</string>
+    <string name="weight">WEIGHT</string>
+    <string name="home">HOME</string>
+    <string name="diary">DIARY</string>
+    <string name="activity">ACTIVITY</string>
+
+
+</resources>

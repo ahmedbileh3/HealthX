@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_3"
+    android:layout_height="match_parent"
+    tools:context=".GoalsLogActivity">
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:text="Health Goals"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <EditText
+                android:padding="16dp"
+                android:background="@drawable/shape"
+                android:id="@+id/wEt"
+                android:hint="Add Health Goal"
+                android:textColor="@color/black"
+                android:layout_margin="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <EditText
+
+                android:padding="15dp"
+                android:background="@drawable/shape"
+                android:id="@+id/hEt"
+                android:hint="Add A Weekly Target"
+                android:layout_margin="12dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <EditText
+                android:textColor="@color/black"
+                android:editable="false"
+                android:padding="20dp"
+                android:background="@drawable/shape"
+                android:id="@+id/dEt"
+                android:hint="Choose Date a Week From Now"
+                android:layout_margin="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Save Logs"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+            <Button
+                android:id="@+id/loadBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="20dp"
+                android:text="Load Logs"
+                android:textColor="@color/white"
+                android:textSize="20sp">
+
+            </Button>
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:id="@+id/wTv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:id="@+id/hTv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:id="@+id/dTv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
